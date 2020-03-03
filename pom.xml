@@ -132,6 +132,11 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jxr-plugin</artifactId>
+				<configuration>
+              		            <formats>
+                  			 <format>xml</format>
+             		            </formats>
+        		        </configuration>
 			</plugin>
 		</plugins>
 	</reporting>
